@@ -1,0 +1,55 @@
+html {
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+}
+
+input {
+outline: 0;
+}
+
+.nav-label {
+cursor: pointer;
+display: inline-block;
+width: 40px;
+}
+
+label.nav-label::before {
+display: none;
+}
+
+.nav-open {
+display: block;
+position: absolute;
+top: .25rem;
+right: .25rem;
+}
+
+.nav-close {
+display: none;
+}
+
+.nav-open, .nav-close {
+position: absolute;
+top: .25rem;
+right: .25rem;
+}
+
+.nav a {
+text-decoration: none;
+color: #000;
+}
+
+li a {
+padding: .75em;
+text-decoration: none;
+color: #000;
+}
+
+.grey {
+background-color: #ccc;
+}
