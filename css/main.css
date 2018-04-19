@@ -53,3 +53,27 @@ color: #000;
 .grey {
 background-color: #ccc;
 }
+
+@media only screen and (min-width: 60em) {
+
+  .nav-open, .nav-close {
+      display: none;
+  }
+
+  nav li:last-child a {
+    background-color: #02B7CD;
+    border-radius: 10px;
+    color: #fff;
+  }
+
+  nav a:hover {
+    background-color: #B0B3B4;
+    border-radius: 10px;
+    color: #fff;
+  }
+
+  nav li:last-child a:hover {
+    background-color: #000;
+  }
+
+}
