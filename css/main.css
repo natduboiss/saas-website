@@ -7,36 +7,8 @@ html {
   box-sizing: inherit;
 }
 
-
-input {
-outline: 0;
-}
-
-.nav-label {
-cursor: pointer;
-display: inline-block;
-width: 40px;
-}
-
-label.nav-label::before {
-display: none;
-}
-
-.nav-open {
-display: block;
-position: absolute;
-top: .25rem;
-right: .25rem;
-}
-
-.nav-close {
-display: none;
-}
-
-.nav-open, .nav-close {
-position: absolute;
-top: .25rem;
-right: .25rem;
+.home-banner {
+  height: 35em;
 }
 
 .nav a {
@@ -52,6 +24,25 @@ color: #000;
 
 .grey {
 background-color: #ccc;
+}
+
+@media only screen and (min-width: 38em) {
+
+  nav li:last-child a {
+    background-color: #02B7CD;
+    border-radius: 10px;
+    color: #fff;
+  }
+
+  nav a:hover {
+    background-color: #B0B3B4;
+    border-radius: 10px;
+    color: #fff;
+  }
+
+  nav li:last-child a:hover {
+    background-color: #000;
+  }
 }
 
 @media only screen and (min-width: 60em) {
