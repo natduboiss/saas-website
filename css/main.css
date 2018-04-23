@@ -15,6 +15,11 @@ html {
   height: 35em;
 }
 
+test {
+  margin: auto;
+  max-width: 200px;
+}
+
 .nav a {
 text-decoration: none;
 color: #000;
