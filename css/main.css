@@ -10,6 +10,10 @@ html {
   height: 35em;
 }
 
+.current {
+  color: #3d3dea;
+}
+
 .test {
   margin-left: 8.6rem;
   max-width: 200px;
