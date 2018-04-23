@@ -11,6 +11,10 @@ html {
   height: 35em;
 }
 
+.feature-banner {
+  height: 35em;
+}
+
 .nav a {
 text-decoration: none;
 color: #000;
