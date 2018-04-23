@@ -11,14 +11,18 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 <body>
-  <header>
+  <ul class="skip-links">
+    <li><a href="#main"></a></li>
+    <li><a href="#nav"></a></li>
+  </ul>
+  <header role="banner">
     <div class="grid pad-t-1-4">
       <div class="unit xs-1-4 island-1-2">
         <a href="index.html">
           <img class="logo icon i-48" src="images/logo.svg" alt="">
         </a>
       </div>
-      <nav class="nav-top unit xs-3-4">
+      <nav role="navigation" id="nav" tabindex="0" class="nav-top unit xs-3-4">
         <ul class="nav list-group text-upper grid">
           <li class="island-1-2 unit xs-1 s-1-2 m-1-3 l-1-4">
             <a class="bold" href="tour.html">Features</a>
@@ -33,7 +37,7 @@
       </nav>
     </div>
   </header>
-  <main>
+  <main role="main" id="main" tabindex="0">
     <div class="banner grid relative">
       <div class="crop unit unit-content-center xs-1 push">
         <img class="home-banner overflow" src="images/homebanner.svg" alt="banner">
@@ -108,7 +112,7 @@
     </div>
   </main>
 
-  <footer class="island-1-2 bottom-nav">
+  <footer role="contentinfo" class="island-1-2 bottom-nav">
     <div class="center-contents-horizontal gutter-1-2 pad-t-1-2">
       <a class="icon-link push-2" href="https://www.facebook.com">
         <i class="icon i-64">

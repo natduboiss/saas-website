@@ -1,10 +1,5 @@
 html {
   font-family: "Raleway", sans-serif;
-  box-sizing: border-box;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
 }
 
 .home-banner {
