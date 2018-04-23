@@ -51,13 +51,13 @@ tbody tr:nth-child(odd) {
 @media only screen and (min-width: 38em) {
 
   nav li:last-child a {
-    background-color: #02B7CD;
+    background-color: #02b7cd;
     border-radius: 10px;
     color: #fff;
   }
 
   nav a:hover {
-    background-color: #B0B3B4;
+    background-color: #b0b3b4;
     border-radius: 10px;
     color: #fff;
   }
@@ -74,13 +74,13 @@ tbody tr:nth-child(odd) {
   }
 
   nav li:last-child a {
-    background-color: #02B7CD;
+    background-color: #02b7cd;
     border-radius: 10px;
     color: #fff;
   }
 
   nav a:hover {
-    background-color: #B0B3B4;
+    background-color: #b0b3b4;
     border-radius: 10px;
     color: #fff;
   }
