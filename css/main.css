@@ -10,8 +10,8 @@ html {
   height: 35em;
 }
 
-test {
-  margin: auto;
+.test {
+  margin-left: 8.6rem;
   max-width: 200px;
 }
 
@@ -28,6 +28,20 @@ color: #000;
 
 .grey {
 background-color: #ccc;
+}
+
+table {
+  border: 3px solid #ccc;
+  min-width: 900px;
+}
+
+.tableblue {
+  width: 7em;
+  color: #3d3dea;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ccc;
 }
 
 @media only screen and (min-width: 38em) {
