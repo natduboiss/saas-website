@@ -11,14 +11,18 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 <body>
-  <header>
+  <ul class="skip-links">
+    <li><a href="#main">Jump to the main</a></li>
+    <li><a href="#nav">Jump to the navigation</a></li>
+  </ul>
+  <header role="banner">
     <div class="grid pad-t-1-4">
       <div class="unit xs-1-4 island-1-2">
         <a href="index.html">
           <img class="logo icon i-48" src="images/logo.svg" alt="">
         </a>
       </div>
-      <nav class="nav-top unit xs-3-4">
+      <nav role="navigation" id="nav" tabindex="0" class="nav-top unit xs-3-4">
         <ul class="nav list-group text-upper grid">
           <li class="island-1-2 unit xs-1 s-1 m-1 l-1-4">
             <a class="current" href="tour.html">Features</a>
@@ -33,7 +37,7 @@
       </nav>
     </div>
   </header>
-  <main>
+  <main role="main" id="main" tabindex="0">
     <div class="banner grid relative">
       <div class="crop unit unit-content-center xs-1 push">
         <img class="home-banner overflow" src="images/feature-banner.svg" alt="banner">
@@ -66,9 +70,18 @@
         </li>
       </ol>
     </div>
-    <div class="wrapper island-2">
+    <div class="reviews">
+      <div class="grid center-content island-2 testimonials">
+        <img class="test unit xs-1 img-flex push-1-2" src="images/review1.jpg" alt="">
+      </div>
+      <div class="grid center-content island-2 testimonials">
+        <h2 class="unit blue bold exa center-text">The best music app ever,</h2>
+        <p class="unit sign-up-text center-text">as a music lover I'm always listening to music every second of my life and this app is truly the best and I highly recommend!</p>
+      </div>
+    </div>
+    <article class="wrapper island-2">
       <h2 class="bold blue center-text exa">Musify has pricings for everyone</h2>
-      <div class="table-wrap">
+      <section class="table-wrap">
         <table class="push-0">
           <caption class="milli push-1-2 text-center">Compare the different pricings to have the best music experience.</caption>
           <thead>
@@ -111,22 +124,15 @@
             </tr>
           </tbody>
         </table>
-      </div>
-      <div class="reviews">
-        <div class="grid center-content island-2 testimonials">
-          <img class="test unit xs-1 img-flex push-1-2" src="images/review1.jpg" alt="">
-          <h2 class="unit blue bold exa center-text">The best music app ever,</h2>
-          <p class="unit sign-up-text center-text">as a music lover I'm always listening to music every second of my life and this app is truly the best and I highly recommend!</p>
-        </div>
-      </div>
-    </div>
+      </section>
+    </article>
     <div class="grey text-center island-2 center-content">
       <h2 class="blue bold exa">Get listening.</h2>
       <p class="sign-up-text">We offer our customers a 30-day trial, so you can check out Musify's amazing features.</p>
       <a class="btn btn-blue text-upper gutter island-1-2 push" href="pricing.html">Sign Up</a>
     </div>
   </main>
-  <footer class="island-1-2 bottom-nav">
+  <footer role="contentinfo" class="island-1-2 bottom-nav">
     <div class="center-contents-horizontal gutter-1-2 pad-t-1-2">
       <a class="icon-link push-2" href="https://www.facebook.com">
         <i class="icon i-64">
