@@ -38,6 +38,18 @@ li a {
   background-color: #e6e6e6;
 }
 
+.icon-label {
+  color: #3d3dea;
+}
+
+.darkblue {
+  color: #0a1363;
+}
+
+.blue {
+  color: #3d3dea;
+}
+
 table {
   border: 3px solid #ccc;
   min-width: 900px;
@@ -50,6 +62,14 @@ table {
 
 tbody tr:nth-child(odd) {
   background-color: #ccc;
+}
+
+.btn-blue {
+  background-color: #02b7cd;
+  border-radius: 10px;
+  color: #fff;
+  border-style: solid;
+  border-color: #02b7cd;
 }
 
 @media only screen and (min-width: 38em) {
