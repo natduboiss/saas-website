@@ -35,7 +35,7 @@ li a {
 }
 
 .grey {
-  background-color: #e6e6e6;
+  background-color: #f1f1f1;
 }
 
 .icon-label {
@@ -61,7 +61,7 @@ li a {
 }
 
 .tbody tr:nth-child(odd) {
-  background-color: #ccc;
+  background-color: #e0e0e0;
 }
 
 .btn-blue {
@@ -121,7 +121,25 @@ li a {
 }
 
 .wrapper {
+  background-color: #e6e6e6;
   max-width: 70em;
+
+}
+
+.headings {
+  color: #3d3dea;
+}
+
+.signup-form {
+  background-color: rgba(255, 255, 255, 9);
+  border-radius: 25px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.shadow {
+  background-color: #f1f1f1;
+  box-shadow: 0 15px 15px rgba(128, 128, 128, .3);
 }
 
 @media only screen and (min-width: 38em) {
