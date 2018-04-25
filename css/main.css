@@ -73,19 +73,15 @@ li a {
 }
 
 .banner-price {
-  min-height: 1200px;
+  background-image: url(../images/pricingbg.svg);
+  background-color: #f1f1f1;
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
-  background-position: 0% 0%;
-  background-color: #e6e6e6;
 }
 
 .wrapper-price {
   max-width: 60em;
-}
-
-.signup-text {
-  text-align: center;
-  margin: auto;
 }
 
 .price-table {
@@ -115,31 +111,30 @@ li a {
   background-color: #fff;
 }
 
+.banner-signup {
+  background-image: url(../images/signupbg.svg);
+  background-color: #f1f1f1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .signup-text {
   text-align: center;
   margin: auto;
-}
-
-.wrapper {
-  background-color: #e6e6e6;
-  max-width: 70em;
-
 }
 
 .headings {
   color: #3d3dea;
 }
 
-.signup-form {
-  background-color: rgba(255, 255, 255, 9);
-  border-radius: 25px;
-  max-width: 400px;
-  margin: auto;
-}
-
 .shadow {
   background-color: #f1f1f1;
   box-shadow: 0 15px 15px rgba(128, 128, 128, .3);
+}
+
+.form {
+  background-color: #fff;
 }
 
 @media only screen and (min-width: 38em) {
@@ -197,9 +192,9 @@ li a {
     max-width: 430px;
   }
 
-  .signup-text {
-    width: 100%;
-    padding-top: 150px;
+  .form {
+    min-width: 500px;
+    max-width: 800px;
   }
 
 }
