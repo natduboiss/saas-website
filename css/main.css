@@ -76,6 +76,7 @@ li a {
   min-height: 1200px;
   background-size: cover;
   background-position: 0% 0%;
+  background-color: #e6e6e6;
 }
 
 .wrapper-price {
@@ -84,11 +85,7 @@ li a {
 
 .signup-text {
   text-align: center;
-  margin: 0, auto;
-}
-
-.headings {
-  font-weight: bold;
+  margin: auto;
 }
 
 .price-table {
@@ -110,16 +107,21 @@ li a {
   text-align: center;
 }
 
-.banner-price {
-  background-color: #e6e6e6;
-}
-
 .bodytable {
   background-color: #fff;
 }
 
 .tablefoot {
   background-color: #fff;
+}
+
+.signup-text {
+  text-align: center;
+  margin: auto;
+}
+
+.wrapper {
+  max-width: 70em;
 }
 
 @media only screen and (min-width: 38em) {
@@ -175,6 +177,11 @@ li a {
 
   .price-table {
     max-width: 430px;
+  }
+
+  .signup-text {
+    width: 100%;
+    padding-top: 150px;
   }
 
 }

@@ -11,11 +11,15 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 <body>
+  <ul class="skip-links">
+    <li><a href="#main">Jump to the main</a></li>
+    <li><a href="#nav">Jump to the navigation</a></li>
+  </ul>
   <header role="banner">
     <div class="grid pad-t-1-4">
       <div class="unit xs-1-4 island-1-2">
         <a href="index.html">
-          <img class="logo icon i-48" src="images/logo.svg" alt="">
+          <img class="logo icon i-48" src="images/logo.svg" alt="logo">
         </a>
       </div>
       <nav role="navigation" id="nav" tabindex="0" class="nav-top unit xs-3-4">
@@ -33,17 +37,20 @@
       </nav>
     </div>
   </header>
-  <main class="push banner-price">
-    <div class="wrapper-price signup-text island">
-      <div class="push-double">
+  <main role="main" id="main" tabindex="0" class="push banner-price">
+    <section class="wrapper-price signup-text island">
+      <article class="push-double">
         <h1 class="push-half headings blue">Select your plan</h1>
         <h2 class="pad-t white kilo">Choose the perfect plan for you to proceed with your sign-up.</h2>
-      </div>
+      </article>
       <div class="grid">
         <div class="unit xs-1 s-1 m-1 l-1-2 pricings">
           <table class="price-table">
+            <caption class="tera push-1-2 text-center darkblue">$0.00/mo</caption>
             <thead>
-              <th class="text-center table-heading blue-bg" scope="col" colspan="2">FREE $0.00/mo</th>
+              <tr>
+                <th class=" yotta text-center table-heading blue-bg" scope="col" colspan="2">Free</th>
+              </tr>
             </thead>
             <tbody class="bodytable">
               <tr>
@@ -82,9 +89,10 @@
         </div>
         <div class="unit xs-1 s-1 m-1 l-1-2 pricings">
           <table class="price-table">
+            <caption class="tera darkblue push-1-2 text-center">$9.99/mo</caption>
             <thead>
               <tr>
-                <th class="text-center blue-bg table-heading" scope="col" colspan="2">PREMIUM $9.99/mo</th>
+                <th class="yotta text-center blue-bg table-heading" scope="col" colspan="2">Premium</th>
               </tr>
             </thead>
             <tbody class="bodytable">
@@ -147,9 +155,9 @@
           </table>
         </div>
       </div>
-    </div>
+    </section>
   </main>
-  <footer class="island-1-2 bottom-nav">
+  <footer role="contentinfo" class="island-1-2 bottom-nav">
     <div class="center-contents-horizontal gutter-1-2 pad-t-1-2">
       <a class="icon-link push-2" href="https://www.facebook.com">
         <i class="icon i-64">

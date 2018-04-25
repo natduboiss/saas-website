@@ -37,29 +37,29 @@
       </nav>
     </div>
   </header>
-  <main>
-    <div>
-      <div>
-        <h1>Sign up now!</h1>
-        <h2>Enjoyed by 27,000 members around the world, Musify is the number one music streaming service.</h2>
+  <main role="main" id="main" tabindex="0" class="push banner-signup">
+    <div class="wrapper signup-text island">
+      <div class="banner-signup">
+        <h1 class="headings">Sign up now!</h1>
+        <h2 class="pad-t kilo">Enjoyed by 27,000 members around the world, Musify is the number one music streaming service.</h2>
       </div>
-      <div>
-        <div>
-          <form>
-            <label>EMAIL</label>
-            <input>
-            <label>NAME</label>
-            <input>
-            <label>REFEREAL</label>
-            <select>
+      <div class="grid">
+        <div class="sighup-form island text-left unit xs-1 s-1 m-1 l-1">
+          <form method="POST" action="https://formspree.io/dubo0063@algonquinlive.com">
+            <label class="signup-label kilo" for="email">EMAIL</label>
+            <input class="signup-input" type="email" id="email" placeholder="your@email.com" name="email" required>
+            <label class="signup-label kilo" for="name">NAME</label>
+            <input class="signup-input" type="text" id="name" name="name" required>
+            <label class="signup-label kilo" for="referral">REFERRAL</label>
+            <select class="signup-input" id="refferal">
               <option>Facebook</option>
               <option>Twitter</option>
               <option>Instagram</option>
               <option>Email</option>
               <option>Others</option>
             </select>
-            <div>
-              <button>Sign Up</button>
+            <div class="text-center">
+              <button class="btn btn-blue" type="submit">Sign Up</button>
             </div>
           </form>
         </div>
