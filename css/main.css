@@ -50,7 +50,7 @@ li a {
   color: #3d3dea;
 }
 
-table {
+.table {
   border: 3px solid #ccc;
   min-width: 900px;
 }
@@ -60,7 +60,7 @@ table {
   color: #3d3dea;
 }
 
-tbody tr:nth-child(odd) {
+.tbody tr:nth-child(odd) {
   background-color: #ccc;
 }
 
@@ -70,6 +70,56 @@ tbody tr:nth-child(odd) {
   color: #fff;
   border-style: solid;
   border-color: #02b7cd;
+}
+
+.banner-price {
+  min-height: 1200px;
+  background-size: cover;
+  background-position: 0% 0%;
+}
+
+.wrapper-price {
+  max-width: 60em;
+}
+
+.signup-text {
+  text-align: center;
+  margin: 0, auto;
+}
+
+.headings {
+  font-weight: bold;
+}
+
+.price-table {
+  table-layout: auto;
+  margin: 0 auto 2rem;
+}
+
+.price-table td, .price-table th {
+  border: none;
+}
+
+.blue-bg {
+  background-color: #02b7cd;
+  padding: 1rem 0;
+}
+
+.table-heading {
+  color: white;
+  text-align: center;
+}
+
+.banner-price {
+  background-color: #e6e6e6;
+}
+
+.bodytable {
+  background-color: #fff;
+}
+
+.tablefoot {
+  background-color: #fff;
 }
 
 @media only screen and (min-width: 38em) {
@@ -108,6 +158,23 @@ tbody tr:nth-child(odd) {
 
   nav li:last-child a:hover {
     background-color: #000;
+  }
+
+  .signup-text {
+    width: 100%;
+    padding-top: 150px;
+  }
+
+  .push-double {
+    margin-bottom: 3rem;
+  }
+
+  table {
+    width: calc(100% + .375rem + .375rem);
+  }
+
+  .price-table {
+    max-width: 430px;
   }
 
 }

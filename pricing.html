@@ -11,117 +11,144 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 <body>
-  <header>
+  <header role="banner">
     <div class="grid pad-t-1-4">
       <div class="unit xs-1-4 island-1-2">
         <a href="index.html">
           <img class="logo icon i-48" src="images/logo.svg" alt="">
         </a>
       </div>
-      <nav class="nav-top unit xs-3-4">
+      <nav role="navigation" id="nav" tabindex="0" class="nav-top unit xs-3-4">
         <ul class="nav list-group text-upper grid">
-          <li class="island-1-2 unit xs-1 s-1 m-1 l-1-4">
-            <a href="tour.html">Features</a>
+          <li class="island-1-2 unit xs-1 s-1-2 m-1-3 l-1-4">
+            <a class="bold" href="tour.html">Features</a>
           </li>
-          <li class="island-1-2 unit xs-1 s-1 m-1 l-1-4">
-            <a class="current" href="pricing.html">Pricing</a>
+          <li class="island-1-2 unit xs-1 s-1-2 m-1-3 l-1-4">
+            <a class="bold" href="pricing.html">Pricing</a>
           </li>
-          <li class="island-1-2 unit xs-1 s-1 m-1 l-1-4">
-            <a href="pricing.html">Sign Up</a>
+          <li class="island-1-2 unit xs-1 s-1-2 m-1-3 l-1-4">
+            <a class="bold" href="pricing.html">Sign Up</a>
           </li>
         </ul>
       </nav>
+    </div>
   </header>
-  <main>
-    <div>
-      <div>
-        <h1>
-        <h2>
+  <main class="push banner-price">
+    <div class="wrapper-price signup-text island">
+      <div class="push-double">
+        <h1 class="push-half headings blue">Select your plan</h1>
+        <h2 class="pad-t white kilo">Choose the perfect plan for you to proceed with your sign-up.</h2>
       </div>
-      <div>
-        <div>
-          <table>
+      <div class="grid">
+        <div class="unit xs-1 s-1 m-1 l-1-2 pricings">
+          <table class="price-table">
             <thead>
-              <th>Free</th>
+              <th class="text-center table-heading blue-bg" scope="col" colspan="2">FREE $0.00/mo</th>
             </thead>
-            <tbody>
+            <tbody class="bodytable">
               <tr>
-                <td>
-                  <i>
-                    <img>
+                <td class="text-center checkmark pad-t pad-b-1-2">
+                  <i class="icon i-16">
+                    <img src="images/checkmark.svg" alt="">
                   </i>
                 </td>
-                <td>Shuffle play</td>
+                <td class="pad-t pad-b-1-2">Shuffle play</td>
+              </tr>
+              <tr>
+                <td class="text-center checkmark pad-t pad-b-1-2">
+                  <i class="icon i-16">
+                    <img src="images/checkmark.svg" alt="">
+                  </i>
+                </td>
+                <td class="pad-t pad-b-1-2">High quality audio</td>
+              </tr>
+              <tr>
+                <td class="text-center checkmark pad-t pad-b-1-2">
+                  <i class="icon i-16">
+                    <img src="images/checkmark.svg" alt="">
+                  </i>
+                </td>
+                <td class="pad-t pad-b-1-2">Play any track</td>
               </tr>
             </tbody>
-            <tfoot>
+            <tfoot class="tablefoot">
               <tr>
-                <td>
+                <td class="text-center pad-b" colspan="2">
                   <a class="btn btn-blue" href="sign-up.html">Sign Up</a>
                 </td>
               </tr>
             </tfoot>
           </table>
         </div>
-        <div>
-          <table>
+        <div class="unit xs-1 s-1 m-1 l-1-2 pricings">
+          <table class="price-table">
             <thead>
               <tr>
-                <th>Premium</th>
+                <th class="text-center blue-bg table-heading" scope="col" colspan="2">PREMIUM $9.99/mo</th>
               </tr>
             </thead>
-            <tbody>
+            <tbody class="bodytable">
               <tr>
-                <td>
-                  <i>
-                    <img>
+                <td class="text-center checkmark pad-t pad-b-1-2">
+                  <i class="icon i-16">
+                    <img src="images/checkmark.svg" alt="">
                   </i>
                 </td>
-                <td>Shuffle Play</td>
-                <td>
-                  <i>
-                    <img>
+                <td class="pad-t pad-b-1-2">Shuffle Play</td>
+              </tr>
+              <tr>
+                <td class="text-center checkmark pad-t pad-b-1-2">
+                  <i class="icon i-16">
+                    <img src="images/checkmark.svg" alt="">
                   </i>
                 </td>
-                <td>High quality audio</td>
-                <td>
-                  <i>
-                    <img>
+                <td class="pad-t pad-b-1-2">High quality audio</td>
+              </tr>
+              <tr>
+                <td class="text-center checkmark pad-t pad-b-1-2">
+                  <i class="icon i-16">
+                    <img src="images/checkmark.svg" alt="">
                   </i>
                 </td>
-                <td>Ad free</td>
-                <td>
-                  <i>
-                    <img>
+                <td class="pad-t pad-b-1-2">Ad free</td>
+              </tr>
+              <tr>
+                <td class="text-center checkmark pad-t pad-b-1-2">
+                  <i class="icon i-16">
+                    <img src="images/checkmark.svg" alt="">
                   </i>
                 </td>
-                <td>Unlimited skips</td>
-                <td>
-                  <i>
-                    <img>
+                <td class="pad-t pad-b-1-2">Unlimited skips</td>
+              </tr>
+              <tr>
+                <td class="text-center checkmark pad-t pad-b-1-2">
+                  <i class="icon i-16">
+                    <img src="images/checkmark.svg" alt="">
                   </i>
                 </td>
-                <td>Play offline</td>
-                <td>
-                  <i>
-                    <img>
+                <td class="pad-t pad-b-1-2">Play offline</td>
+              </tr>
+              <tr>
+                <td class="text-center checkmark pad-t pad-b-1-2">
+                  <i class="icon i-16">
+                    <img src="images/checkmark.svg" alt="">
                   </i>
                 </td>
-                <td>Play any track</td>
+                <td class="pad-t pad-b-1-2">Play any track</td>
               </tr>
             </tbody>
-            <tfoot>
+            <tfoot class="tablefoot">
               <tr>
-                <td>
+                <td class="text-center pad-b" colspan="2">
                   <a class="btn btn-blue" href="sign-up.html">Sign Up</a>
                 </td>
               </tr>
             </tfoot>
+          </table>
         </div>
       </div>
     </div>
   </main>
-
   <footer class="island-1-2 bottom-nav">
     <div class="center-contents-horizontal gutter-1-2 pad-t-1-2">
       <a class="icon-link push-2" href="https://www.facebook.com">
