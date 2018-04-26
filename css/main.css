@@ -173,10 +173,14 @@ li a {
   color: #000;
 }
 
+a:focus {
+  outline: 3px solid #000;
+}
+
 @media only screen and (min-width: 38em) {
 
   nav li:last-child a {
-    background-color: #02b7cd;
+    background-color: #000;
     border-radius: 10px;
     color: #fff;
   }
@@ -190,13 +194,13 @@ li a {
 @media only screen and (min-width: 60em) {
 
   nav li:last-child a {
-    background-color: #02b7cd;
+    background-color: #0b0c53;
     border-radius: 10px;
     color: #fff;
   }
 
   nav li:last-child a:hover {
-    background-color: #000;
+    background-color: #0b0c53;
   }
 
   .signup-text {
