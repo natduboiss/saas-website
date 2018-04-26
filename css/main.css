@@ -59,6 +59,7 @@ li a {
 .table {
   border: 3px solid #ccc;
   min-width: 900px;
+  margin-left: .10rem;
 }
 
 .tableblue {
